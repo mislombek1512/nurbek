@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from "styled-components"
+import styled from "styled-components" 
 
 const HeaderWrapper = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -31,7 +31,7 @@ const HeaderWrapper = styled.div`
   }
   }
   }
-`; 
+`;
 
 const Header = () => {
   return (

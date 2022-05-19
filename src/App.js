@@ -4,6 +4,8 @@ import Footer from './container/footer/Footer';
 import Section1 from './components/Section1';
 import Section2 from './components/Section2';
 import Header from './container/header/Header';
+import styled from "styled-components"
+
 
 class App extends Component {
   render() {
@@ -13,7 +15,7 @@ class App extends Component {
         <Section1 />
         <Section2 />
         <Section3 />
-        <Footer /> 
+        <Footer />
       </div>
     );
   }
